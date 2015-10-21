@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ANNDemo", "ANNDemo\ANNDemo.vcxproj", "{E62B0FB5-1423-41C6-A305-7A3F6C459249}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GazeTracking", "GazeTracking\GazeTracking.vcxproj", "{316E6431-7EE3-4526-B7EC-C93A3D6270D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EyeDetection", "test1\EyeDetection.vcxproj", "{F63B30DF-2283-4760-8110-0AC6DD1EB072}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "highPerformanceFaceDetection", "highPerformanceFaceDetection\highPerformanceFaceDetection.vcxproj", "{DA919D6B-9E9D-4813-B6FA-BF3B9934F01F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GazeTracking_backfire", "GazeTracking_backfire\GazeTracking_backfire.vcxproj", "{F1388E61-CF04-47E3-8037-61519374ACDF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataClean", "DataClean\DataClean.vcxproj", "{18E5FD72-EB78-4810-A59B-7E9F5CEE4EEA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GazeTracking_NoANN", "GazeTracking_NoANN\GazeTracking_NoANN.vcxproj", "{EBCE490E-F259-4B02-A657-A39827AB5129}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E62B0FB5-1423-41C6-A305-7A3F6C459249}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E62B0FB5-1423-41C6-A305-7A3F6C459249}.Debug|Win32.Build.0 = Debug|Win32
+		{E62B0FB5-1423-41C6-A305-7A3F6C459249}.Release|Win32.ActiveCfg = Release|Win32
+		{E62B0FB5-1423-41C6-A305-7A3F6C459249}.Release|Win32.Build.0 = Release|Win32
+		{316E6431-7EE3-4526-B7EC-C93A3D6270D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{316E6431-7EE3-4526-B7EC-C93A3D6270D5}.Debug|Win32.Build.0 = Debug|Win32
+		{316E6431-7EE3-4526-B7EC-C93A3D6270D5}.Release|Win32.ActiveCfg = Release|Win32
+		{316E6431-7EE3-4526-B7EC-C93A3D6270D5}.Release|Win32.Build.0 = Release|Win32
+		{F63B30DF-2283-4760-8110-0AC6DD1EB072}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F63B30DF-2283-4760-8110-0AC6DD1EB072}.Debug|Win32.Build.0 = Debug|Win32
+		{F63B30DF-2283-4760-8110-0AC6DD1EB072}.Release|Win32.ActiveCfg = Release|Win32
+		{F63B30DF-2283-4760-8110-0AC6DD1EB072}.Release|Win32.Build.0 = Release|Win32
+		{DA919D6B-9E9D-4813-B6FA-BF3B9934F01F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DA919D6B-9E9D-4813-B6FA-BF3B9934F01F}.Debug|Win32.Build.0 = Debug|Win32
+		{DA919D6B-9E9D-4813-B6FA-BF3B9934F01F}.Release|Win32.ActiveCfg = Release|Win32
+		{DA919D6B-9E9D-4813-B6FA-BF3B9934F01F}.Release|Win32.Build.0 = Release|Win32
+		{F1388E61-CF04-47E3-8037-61519374ACDF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1388E61-CF04-47E3-8037-61519374ACDF}.Debug|Win32.Build.0 = Debug|Win32
+		{F1388E61-CF04-47E3-8037-61519374ACDF}.Release|Win32.ActiveCfg = Release|Win32
+		{F1388E61-CF04-47E3-8037-61519374ACDF}.Release|Win32.Build.0 = Release|Win32
+		{18E5FD72-EB78-4810-A59B-7E9F5CEE4EEA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{18E5FD72-EB78-4810-A59B-7E9F5CEE4EEA}.Debug|Win32.Build.0 = Debug|Win32
+		{18E5FD72-EB78-4810-A59B-7E9F5CEE4EEA}.Release|Win32.ActiveCfg = Release|Win32
+		{18E5FD72-EB78-4810-A59B-7E9F5CEE4EEA}.Release|Win32.Build.0 = Release|Win32
+		{EBCE490E-F259-4B02-A657-A39827AB5129}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EBCE490E-F259-4B02-A657-A39827AB5129}.Debug|Win32.Build.0 = Debug|Win32
+		{EBCE490E-F259-4B02-A657-A39827AB5129}.Release|Win32.ActiveCfg = Release|Win32
+		{EBCE490E-F259-4B02-A657-A39827AB5129}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
