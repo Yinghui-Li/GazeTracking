@@ -1,0 +1,789 @@
+***********************************************
+train info:
+( 0, 0) eye position:404 228 331 228
+( 0, 1) eye position:410 242 334 242
+( 0, 2) eye position:412 250 338 250
+( 1, 0) eye position:388 228 313 230
+( 1, 1) eye position:389 241 314 242
+( 1, 2) eye position:390 250 314 251
+( 2, 0) eye position:368 228 293 231
+( 2, 1) eye position:370 242 296 247
+( 2, 2) eye position:372 252 298 254
+***********************************************
+predictor info:
+eye center:
+第0行：22.3222 -5.24444 22.6444 -7.35556 
+第1行：22.5065 1.36364 23.1039 -0.350649 
+第2行：20.6753 6.76623 20.974 3.98701 
+第3行：4.91765 -5.69412 3.82353 -5.24706 
+第4行：1.81132 -0.301887 0.528302 0.528302 
+第5行：3.5814 6.48837 2.72093 5.7907 
+第6行：-19.1 -6.18333 -18.6333 -3.04167 
+第7行：-20.8391 0.494253 -20.5287 3.05747 
+第8行：-22.7125 6.3375 -21.775 8.825 
+train data:
+第0行：404 228 331 228 
+第1行：410 242 334 242 
+第2行：412 250 338 250 
+第3行：388 228 313 230 
+第4行：389 241 314 242 
+第5行：390 250 314 251 
+第6行：368 228 293 231 
+第7行：370 242 296 247 
+第8行：372 252 298 254 
+bias:
+389 240 314 241 
+***********************************************
+tracking
+eye position is: 372 250 299 253 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 374 252 300 254 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 373 251 298 253 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 372 252 298 253 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 372 250 299 254 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 372 250 299 253 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 374 251 300 254 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 375 248 300 250 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 376 242 301 245 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 376 236 302 241 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 378 234 302 237 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 376 230 302 233 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 376 226 302 231 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 376 225 300 228 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 375 227 302 230 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 376 228 302 230 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 378 232 306 234 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 388 239 312 242 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 391 242 318 245 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 398 242 322 244 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 400 244 324 245 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 401 245 325 246 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 403 243 328 244 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 406 244 332 244 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 407 242 332 244 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 407 243 334 242 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 413 243 342 242 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 416 244 350 242 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 418 242 350 242 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 418 240 348 240 predict pos is : (0, 2)
+***********************************************
+tracking
+***********************************************
+tracking
+eye position is: 416 230 345 230 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 414 224 343 224 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 414 220 342 222 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 411 221 340 220 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 412 222 340 222 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 411 224 341 224 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 412 224 340 224 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 412 222 340 224 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 411 221 340 223 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 410 222 339 220 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 408 216 339 217 predict pos is : (0, 2)
+***********************************************
+tracking
+***********************************************
+tracking
+***********************************************
+tracking
+***********************************************
+tracking
+***********************************************
+tracking
+eye position is: 406 210 336 210 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 408 208 334 208 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 404 212 334 210 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 404 214 334 214 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 404 222 335 223 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 406 227 332 228 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 404 229 332 230 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 406 230 332 230 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 405 233 333 233 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 408 236 334 236 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 408 238 336 237 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 407 233 336 234 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 410 232 336 230 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 410 228 337 229 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 412 224 342 222 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 415 225 344 224 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 416 223 344 224 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 416 222 345 221 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 416 221 344 220 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 417 219 345 217 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 416 215 346 214 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 418 214 347 212 predict pos is : (0, 2)
+***********************************************
+tracking
+***********************************************
+tracking
+***********************************************
+tracking
+eye position is: 418 213 347 213 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 414 217 344 214 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 413 222 344 221 predict pos is : (0, 2)
+***********************************************
+tracking
+***********************************************
+tracking
+***********************************************
+tracking
+***********************************************
+tracking
+***********************************************
+tracking
+***********************************************
+tracking
+***********************************************
+tracking
+***********************************************
+tracking
+***********************************************
+tracking
+eye position is: 416 242 344 239 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 405 238 331 239 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 392 238 316 240 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 385 238 312 240 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 384 237 310 240 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 378 237 305 241 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 370 238 296 242 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 364 238 292 244 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 356 238 286 246 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 354 240 284 244 predict pos is : (2, 2)
+***********************************************
+tracking
+***********************************************
+tracking
+eye position is: 357 244 289 247 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 360 247 290 252 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 365 255 292 256 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 365 255 294 258 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 367 255 294 258 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 366 250 295 254 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 368 246 296 250 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 369 236 297 241 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 370 222 298 228 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 371 215 298 219 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 368 214 297 218 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 370 212 299 218 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 370 212 298 217 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 372 212 302 218 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 372 210 300 216 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 372 212 300 216 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 377 215 304 219 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 390 220 320 222 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 400 224 330 224 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 404 226 332 225 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 406 224 338 226 predict pos is : (0, 2)
+***********************************************
+tracking
+***********************************************
+tracking
+***********************************************
+tracking
+eye position is: 412 232 342 230 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 414 234 346 232 predict pos is : (0, 2)
+***********************************************
+tracking
+***********************************************
+tracking
+eye position is: 410 235 340 234 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 404 238 332 236 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 395 236 322 238 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 386 238 312 240 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 378 240 304 242 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 372 240 300 244 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 370 240 298 246 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 364 242 294 247 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 364 242 291 249 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 363 243 292 247 predict pos is : (2, 2)
+***********************************************
+tracking
+***********************************************
+tracking
+eye position is: 374 250 302 252 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 379 250 304 253 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 382 250 308 252 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 382 248 310 250 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 384 244 309 244 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 384 240 310 242 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 384 236 310 238 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 384 230 310 232 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 385 225 312 229 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 384 226 312 228 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 384 228 311 231 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 386 226 312 231 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 386 224 312 228 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 385 222 313 225 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 386 220 313 222 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 386 218 314 222 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 386 218 312 220 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 386 217 312 220 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 385 217 312 220 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 387 219 313 221 predict pos is : (1, 2)
+***********************************************
+tracking
+***********************************************
+tracking
+eye position is: 389 233 315 234 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 388 237 316 238 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 388 239 315 241 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 390 242 316 243 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 390 242 316 243 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 390 240 316 242 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 390 238 316 240 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 390 233 316 236 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 387 221 315 224 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 386 218 315 220 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 386 216 315 217 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 387 215 314 216 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 385 216 314 217 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 384 216 315 219 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 380 224 308 224 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 376 224 305 229 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 362 228 295 235 predict pos is : (2, 2)
+***********************************************
+tracking
+***********************************************
+tracking
+eye position is: 344 234 279 240 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 346 236 281 241 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 346 236 280 242 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 350 236 288 246 predict pos is : (2, 2)
+***********************************************
+tracking
+***********************************************
+tracking
+eye position is: 350 236 285 241 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 350 237 285 244 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 356 236 288 242 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 370 236 297 243 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 388 236 310 240 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 396 237 322 241 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 402 238 330 238 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 404 238 332 238 predict pos is : (0, 2)
+***********************************************
+tracking
+***********************************************
+tracking
+eye position is: 415 238 348 240 predict pos is : (0, 2)
+***********************************************
+tracking
+***********************************************
+tracking
+***********************************************
+tracking
+eye position is: 420 244 353 240 predict pos is : (0, 2)
+***********************************************
+tracking
+***********************************************
+tracking
+***********************************************
+tracking
+eye position is: 414 242 344 244 predict pos is : (0, 2)
+***********************************************
+tracking
+***********************************************
+tracking
+eye position is: 410 256 340 256 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 410 256 338 256 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 410 252 336 254 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 410 248 336 248 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 408 236 334 238 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 405 229 332 230 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 404 220 331 222 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 403 218 332 220 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 404 218 334 220 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 404 219 333 220 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 404 220 332 220 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 402 222 332 222 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 404 222 330 224 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 404 226 332 226 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 406 228 332 228 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 405 229 332 229 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 406 230 334 230 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 405 231 333 232 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 405 231 332 232 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 406 232 334 234 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 408 233 334 234 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 408 234 334 234 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 406 231 334 233 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 406 227 334 226 predict pos is : (0, 2)
+***********************************************
+tracking
+eye position is: 404 224 332 225 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 400 226 328 228 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 386 230 314 232 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 376 234 306 237 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 372 235 299 238 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 368 236 298 240 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 360 237 290 244 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 358 237 291 242 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 361 237 290 242 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 366 234 293 239 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 372 234 298 238 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 377 234 306 238 predict pos is : (2, 2)
+***********************************************
+tracking
+eye position is: 388 234 314 236 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 392 234 319 238 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 396 238 322 238 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 398 239 322 240 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 396 240 320 242 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 394 241 318 242 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 394 240 316 242 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 389 245 314 246 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 391 246 314 249 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 392 252 314 254 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 390 266 316 267 predict pos is : (1, 2)
+***********************************************
+tracking
+***********************************************
+tracking
+***********************************************
+tracking
+eye position is: 398 282 316 286 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 398 276 314 280 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 394 270 311 273 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 392 263 309 266 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 390 262 310 265 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 392 258 310 262 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 392 255 310 258 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 392 253 310 258 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 392 253 310 258 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 394 264 311 268 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 395 270 313 274 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 398 272 313 277 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 398 274 314 278 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 398 276 315 282 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 399 277 314 284 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 396 276 314 280 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 394 268 311 272 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 391 264 308 270 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 390 260 307 266 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 390 258 308 263 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 390 258 306 264 predict pos is : (1, 2)
+***********************************************
+tracking
+eye position is: 391 259 308 264 predict pos is : (1, 2)
+***********************************************
+tracking
