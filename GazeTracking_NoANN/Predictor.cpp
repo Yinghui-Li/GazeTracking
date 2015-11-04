@@ -23,16 +23,14 @@ bool Predictor :: load(char* filename)
 	if(ifile.eof() || dataWidth < 1)
 		return false;
 
-	metaData = new vector<double>[channels[0] * channels[1]];
-	for(int i=0; i < channels[0]*channels[1]; i++)
+	data = new vector<double>[dataWidth+2];
+	double temp;
+	while(!ifile.eof())
 	{
-		for(int j=0; j < dataWidth; j++)
+		for(int i=0; i < dataWidth+2 && !ifile.eof(); i++)
 		{
-			double temp;
-			if(ifile.eof())
-				return false;
 			ifile >> temp;
-			metaData[i].push_back(temp);
+			data[i].push_back(temp);
 		}
 	}
 
@@ -72,32 +70,84 @@ bool Predictor :: insertTrainData(vector<int> data)
 	return true;
 }
 
-vector<int> Predictor :: predict(vector<int> data)
+vector<int> Predictor :: predict(vector<int> info)
 {
-	int pos[2];
-	double square = -1;
-	for(int i=0; i < channels[0]; i++)
+	const int MAX_SIZE = 15;
+	vector<int>* neighborSet = new vector<int>[dataWidth+2];
+	vector<int> varLen;
+	double maxLen = -1;
+	int maxDisPos = -1;
+	int size = data[0].size();
+
+	for(int i=0; i < size; i++)
 	{
-		for(int j=0; j < channels[1]; j++)
+		double tempVar = 0;
+		for(int j=0; j < dataWidth; j++)
 		{
-			double temp = getLength(data, metaData[i*channels[0]+j]);
-			if(temp > 0 && (square < 0 || square > temp))
+			if(j % 2 == 0)
 			{
-				pos[0] = i;
-				pos[1] = j;
-				square = temp;
+				tempVar += pow(info[j]-bias[j]-data[j][i], 2);
+			}else
+			{
+				tempVar += 14 * pow(info[j]-bias[j]-data[j][i], 2);
+			}
+		}
+
+		if(neighborSet[0].size() < MAX_SIZE)
+		{
+			for(int j=0; j < dataWidth+2; j++)
+			{
+				neighborSet[j].push_back(data[j][i]);
+			}
+
+			varLen.push_back(tempVar);
+			if(tempVar > maxLen)
+			{
+				maxLen = tempVar;
+				maxDisPos = neighborSet[0].size()-1;
+			}
+		}else
+		{
+			if(tempVar < maxLen)
+			{
+				for(int j=0; j < dataWidth+2; j++)
+				{
+					neighborSet[j][maxDisPos] = data[j][i];
+				}
+				varLen[maxDisPos] = tempVar;
+				maxLen = tempVar;
+
+				for(int k=0; k < MAX_SIZE; k++)
+				{
+					if(varLen[k] > maxLen)
+					{
+						maxLen = varLen[k];
+						maxDisPos = k;
+					}
+				}
 			}
 		}
 	}
-	vector<int> temp;
-	temp.push_back(pos[0]);
-	temp.push_back(pos[1]);
-	return temp;
+
+	double cordinate_x=0, cordinate_y=0;
+	for(int i=0; i < MAX_SIZE; i++)
+	{
+		cordinate_x += neighborSet[dataWidth][i];
+		cordinate_y += neighborSet[dataWidth+1][i];
+	}
+	cordinate_x /= MAX_SIZE;
+	cordinate_y /= MAX_SIZE;
+
+	vector<int> result;
+	result.push_back((int) cordinate_x*channels[0]/screenSize[0]);
+	result.push_back((int) cordinate_y*channels[1]/screenSize[1]);
+
+	return result;
 }
 
 bool Predictor :: isTrained()
 {
-	if(trainData.size() >= dataWidth * channels[0] * channels[1])
+	if(trainData.size() >= dataWidth * 3 * 3)
 		return true;
 
 	return false;
@@ -132,44 +182,4 @@ double Predictor :: getLength(vector<int>& data1, vector<double>& data2)
 	}
 	square /= len;
 	return square;
-}
-
-void Predictor :: logInfo(ofstream& log)
-{
-	log << "***********************************************" << endl;
-	log << "predictor info:" << endl;
-
-	log << "eye center:" << endl;
-	for(int i=0; i < channels[0] * channels[1]; i++)
-	{
-		log << "第" << i << "行：";
-		for(int j=0; j < dataWidth; j++)
-		{
-			log << metaData[i][j] << ' ';
-		}
-		log << endl;
-	}
-
-	log << "train data:" << endl;
-	for(int i=0; i < channels[0] * channels[1]; i++)
-	{
-		log << "第" << i << "行：";
-		for(int j=0; j < dataWidth; j++)
-		{
-			log << trainData[i*dataWidth+j] << ' ';
-		}
-		log << endl;
-	}
-
-	if(bias != NULL)
-	{
-		log << "bias:" << endl;
-		for(int i=0; i < dataWidth; i++)
-		{
-			log << bias[i] << ' ';
-		}
-		log << endl;
-	}
-
-	return;
 }

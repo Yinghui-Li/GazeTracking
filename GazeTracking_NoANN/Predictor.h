@@ -14,13 +14,12 @@ public:
 	bool isTrained();
 	vector<int> getChannels();
 	vector<int> getScreenSize(); 
-	void logInfo(ofstream& log);
 
 protected:
 	int channels[2]; //the numbers of which x and y axis are divided into
 	int screenSize[2];
 	int dataWidth;
-	vector<double> *metaData;
+	vector<double> *data;
 	vector<int> trainData;
 	double *bias;	//Æ«ÒÆÁ¿
 

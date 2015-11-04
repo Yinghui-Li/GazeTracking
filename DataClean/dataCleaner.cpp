@@ -277,7 +277,6 @@ int DataCleaner :: getDataWidth()
 	return dataWidth;
 }
 
-//ÓÐ´íÎó
 void DataCleaner :: cvtStd()
 {
 	if(metaData == NULL)
@@ -322,7 +321,7 @@ void DataCleaner :: cvtStd()
 
 bool DataCleaner :: write(char* filePath)
 {
-	ofstream file(filePath);
+	ofstream file(filePath, ios::app);
 	if(file.fail())
 		return false;
 
@@ -395,7 +394,7 @@ void DataCleaner :: predictTest(int mark)
 	cout << "error rate:" << (double)c /total << endl;
 }
 
-void DataCleaner :: writePredicotModel(char* filePath)
+void DataCleaner :: writeAverage(char* filePath)
 {
 	ofstream file(filePath);
 	if(file.fail())
@@ -415,5 +414,63 @@ void DataCleaner :: writePredicotModel(char* filePath)
 		}
 		file << endl;
 	}
+	file.close();
+}
+
+void DataCleaner :: writeChannelsCenter(char* filePath)
+{
+	ofstream file(filePath);
+	if(file.fail())
+	{
+		return;
+	}
+
+	file << channels[0] << ' ' << channels[1] << endl;
+	file << screenSize[0] << ' ' << screenSize[1] << endl;
+	file << dataWidth - 2 << endl;
+
+	vector<double> xCenter;
+	vector<double> yCenter;
+
+	for(int i=0; i < channels[0]; i++)
+	{
+		double xLeft=0, xRight=0;
+		int total=0;
+		for(int j=0; j < channels[1]; j++)
+		{
+			xLeft += metaData[i*channels[0]+j][0] * data[i*channels[0]+j].size();
+			xRight += metaData[i*channels[0]+j][2] * data[i*channels[0]+j].size();
+			total += data[i*channels[0]+j].size();
+		}
+		xCenter.push_back(xLeft/total);
+		xCenter.push_back(xRight/total);
+	}
+
+	for(int j=0; j < channels[1]; j++)
+	{
+		double yLeft=0, yRight=0;
+		int total=0;
+		for(int i=0; i < channels[0]; i++)
+		{
+			yLeft += metaData[i*channels[0]+j][1] * data[i*channels[0]+j].size();
+			yRight += metaData[i*channels[0]+j][3] * data[i*channels[0]+j].size();
+			total += data[i*channels[0]+j].size();
+		}
+		yCenter.push_back(yLeft/total);
+		yCenter.push_back(yRight/total);
+	}
+
+	for(int i=0; i < xCenter.size(); i++)
+	{
+		file << xCenter[i] << ' ';
+	}
+	file << endl;
+
+	for(int i=0; i < xCenter.size(); i++)
+	{
+		file << yCenter[i] << ' ';
+	}
+	file << endl;
+
 	file.close();
 }

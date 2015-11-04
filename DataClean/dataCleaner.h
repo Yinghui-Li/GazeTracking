@@ -27,7 +27,8 @@ public:
 	DataCleaner();
 	~DataCleaner();
 	void predictTest(int mark); // 精度预测测试
-	void writePredicotModel(char* filePath); //输出平均值
+	void writeAverage(char* filePath); // 输出平均值
+	void writeChannelsCenter(char* filePath);	// 输出每行、每列的划分的平均值
 
 protected:
 	const int inputDataWidth; //gaze tracking记录的单条数据的长度，默认为9

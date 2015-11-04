@@ -15,8 +15,8 @@ using namespace cv;
 #define FILEPATH "record.txt"
 #define OFPATH   "data.txt"
 #define CENTERPATH	"eyeCenter.txt"
-#define CHINNELX 2
-#define CHINNELY 2
+#define CHINNELX 3
+#define CHINNELY 3
 
 void draw(DataCleaner cleaner, int m);
 
@@ -38,17 +38,16 @@ int main()
 int main()
 {
 	DataCleaner cleaner;
-	cleaner.readNew(NEWFILEPATH);
+	cleaner.readNew(OFPATH);
 //	cleaner.clean();
 	cleaner.predictTest(0);
 	cleaner.predictTest(1);
-	cleaner.writePredicotModel(CENTERPATH);
+	cleaner.writeChannelsCenter(CENTERPATH);
 	draw(cleaner, 0);
 	draw(cleaner, 1);
 	waitKey(0);
 	return 0;
 }
-
 
 //show the data distribution
 //m shows weather draw left eye's data 

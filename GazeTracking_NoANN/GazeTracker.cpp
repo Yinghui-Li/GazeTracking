@@ -100,7 +100,7 @@ void GazeTracker :: track(Mat& image)
 			eyeInfo.push_back(detector.leftEyeCenter.x);
 			eyeInfo.push_back(detector.leftEyeCenter.y);
 			eyeInfo.push_back(detector.rightEyeCenter.x);
-			eyeInfo.push_back(detector.rightEyeCenter.x);
+			eyeInfo.push_back(detector.rightEyeCenter.y);
 			vector<int> pos = focusFinder.predict(eyeInfo);
 			
 			log << "eye position is: " << detector.leftEyeCenter.x << ' '
@@ -133,18 +133,22 @@ void GazeTracker :: train(VideoCapture& cam)
 	
 	for(int i=0; i < screenSize.size(); i++)
 	{
-		int temp = screenSize[i] / channels[i];
+		int temp = screenSize[i] / 3;
 		span.push_back(temp);
 	}
 
-	for(int i=0; i < channels[0]; i++)
+	for(int i=0; i < 3; i++)
 	{
-		for(int j=0; j < channels[1]; j++)
+		for(int j=0; j < 3; j++)
 		{
 			while(true)
 			{
 				vector<int> faceEyeInfo;
 				cam >> image;
+				if(image.data == NULL)
+				{
+					continue;
+				}
 
 				detector.detectFaceAndEyes(image, 1);
 				if(detector.isRecorded)
@@ -158,8 +162,8 @@ void GazeTracker :: train(VideoCapture& cam)
 					faceEyeInfo.push_back(detector.rightEyeCenter.x);
 					faceEyeInfo.push_back(detector.rightEyeCenter.y);
 					faceEyeInfo.push_back(detector.rightEyeSize.x);
-					faceEyeInfo.push_back(i * image.cols/channels[0] + image.cols/channels[0]/2);
-					faceEyeInfo.push_back(j * image.rows/channels[1] + image.rows/channels[1]/2);
+					faceEyeInfo.push_back(i * image.cols/3 + image.cols/3/2);
+					faceEyeInfo.push_back(j * image.rows/3 + image.rows/3/2);
 					faceEyeInfo.push_back(5);
 				}
 				draw(windowName.c_str(), image, faceEyeInfo, screenSize);
@@ -188,8 +192,6 @@ void GazeTracker :: train(VideoCapture& cam)
 			}
 		}
 	}
-
-	focusFinder.logInfo(log);
 }
 
 void GazeTracker::autoRun(VideoCapture& cam)

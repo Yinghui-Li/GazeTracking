@@ -11,7 +11,7 @@ using namespace ml;
 
 #define RECORDPATH "record.txt"
 #define MODULEPATH "eyeFocusDetector.xml"
-#define PREDICTPATH "eyeCenter.txt"
+#define PREDICTPATH "data.txt"
 #define LOGPATH	"info.log"
 
 class GazeTracker
